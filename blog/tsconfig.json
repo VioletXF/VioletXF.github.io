@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "outDir": "./dist",
+        "rootDir": "./",
+        "strict": true,
+        "noImplicitAny": true,
+        "esModuleInterop": true,
+        "jsx": "react-jsx",
+        "noEmit": true,
+        "isolatedModules": true,
+        "baseUrl": "./",
+        "paths": {
+
+        },
+        
+    },
+    "include": ["./src/**/*", "./gatsby-node.ts", "./gatsby-config.ts", "./plugins/**/*"]
+}
